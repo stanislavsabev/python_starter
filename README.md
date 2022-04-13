@@ -1,4 +1,4 @@
-# python_starter_project
+# python_starter
 
 Standard template for a python project with `tox` and GitHub workflows.
 
@@ -13,7 +13,7 @@ $ mkdir myproject
 $ cd myproject
 
 # Pull python starter repo
-$ git pull https://github.com/stanislavsabev/python_starter_proj.git
+$ git pull https://github.com/stanislavsabev/python_starter.git
 ```
 
 Setup virtual environment
@@ -89,4 +89,4 @@ ______________________________________________________________________________ s
 Create GitHub repo and push your changes.
 For more information see [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows) documentation.
 
-[![tests](https://github.com/stanislavsabev/python_starter_proj/actions/workflows/tests.yaml/badge.svg)](https://github.com/stanislavsabev/python_starter_proj/actions/workflows/tests.yaml)
+[![tests](https://github.com/stanislavsabev/python_starter/actions/workflows/tests.yaml/badge.svg)](https://github.com/stanislavsabev/python_starter/actions/workflows/tests.yaml)
