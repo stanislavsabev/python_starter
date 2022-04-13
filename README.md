@@ -89,4 +89,6 @@ ______________________________________________________________________________ s
 Create GitHub repo and push your changes.
 For more information see [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows) documentation.
 
+---
+
 [![tests](https://github.com/stanislavsabev/python_starter/actions/workflows/tests.yaml/badge.svg)](https://github.com/stanislavsabev/python_starter/actions/workflows/tests.yaml)
