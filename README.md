@@ -13,28 +13,23 @@ Standard template for a python project with `tox` and GitHub workflows.
 Create project directory and pull the starter repo.
 
 ```text
-$ mkdir myproject
-$ cd myproject
-
-# Pull python starter repo
-$ git pull https://github.com/stanislavsabev/python_starter.git
+mkdir myproject
+cd myproject
+git pull https://github.com/stanislavsabev/python_starter.git
 ```
 
-Setup virtual environment
+Setup virtual environment and activate it
 
 ```text
-# Setup virtual environment and activate it
-$ python -m venv venv
-$ source ./venv/bin/activate # On Windows -> .\venv\Scripts\activate.bat
+python -m venv venv
+source ./venv/bin/activate
 ```
+On Windows use `.\venv\Scripts\activate.bat`
 
 Install requirements
 
 ```text
 pip install -r requirements.txt
-```
-
-```text
 pip install -r requirements-dev.txt
 ```
 
@@ -50,7 +45,7 @@ Install 'python_starter' package in edit mode
 pip install -e .
 ```
 
-### Run checks locally
+### To run checks locally
 
 ```text
 $ pytest
@@ -88,7 +83,7 @@ ______________________________________________________________________________ s
   congratulations :)
 ```
 
-### Run checks using GitHub Actions workflows
+### To run checks using GitHub Actions workflows
 
 Create GitHub repo and push your changes.
-For more information see [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows) documentation.
+For more information see the GitHub Actions  [documentation](https://docs.github.com/en/actions/using-workflows).
