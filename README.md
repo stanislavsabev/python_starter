@@ -1,6 +1,6 @@
 # python_starter
 
-Standard template for a python project with `tox` and GitHub workflows.
+Standard template for a python project with `tox` and GitHub Actions workflows.
 
 ---
 
@@ -88,4 +88,4 @@ ______________________________________________________________________________ s
 ### To run checks using GitHub Actions workflows
 
 Create GitHub repo and push your changes.
-For more information see the GitHub Actions  [documentation](https://docs.github.com/en/actions/using-workflows).
+For more information see the GitHub Actions [documentation](https://docs.github.com/en/actions/using-workflows).
