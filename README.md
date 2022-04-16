@@ -31,11 +31,11 @@ $ source ./venv/bin/activate # On Windows -> .\venv\Scripts\activate.bat
 Install requirements
 
 ```text
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ```text
-$ pip install -r requirements-dev.txt
+pip install -r requirements-dev.txt
 ```
 
 **NOTE:** At this point you can choose different name for the `python_starter` package.
@@ -47,7 +47,7 @@ $ pip install -r requirements-dev.txt
 Install 'python_starter' package in edit mode
 
 ```text
-$ pip install -e .
+pip install -e .
 ```
 
 ### Run checks locally
