@@ -8,7 +8,7 @@ Standard template for a python project with `tox` and GitHub workflows.
 
 ---
 
-## Usage
+## Setup
 
 Create project directory and pull the starter repo.
 
@@ -39,11 +39,13 @@ pip install -r requirements-dev.txt
 
 2. Change all mentions of `python_starter` in pyproject.toml, setup.cfg, setup.py, tests/test_start.py and (optional) example.py.
 
-Install 'python_starter' package in edit mode
+Install the package in edit mode
 
 ```text
 pip install -e .
 ```
+
+## Usage
 
 ### To run checks locally
 
