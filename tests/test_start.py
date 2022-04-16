@@ -7,4 +7,4 @@ def test_start_here():
     """Test start.here."""
     expected = 'Your code goes here!'
     actual = start.here()
-    assert actual != expected
+    assert actual == expected
