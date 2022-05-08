@@ -1,6 +1,6 @@
 # python_starter
 
-Standard template for a python project with `tox` and GitHub workflows.
+Standard template for a python project with `tox` and GitHub Actions workflows.
 
 ---
 
