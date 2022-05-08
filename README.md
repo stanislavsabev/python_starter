@@ -53,7 +53,7 @@ pip install -e .
 
 ## Local Usage
 
-### Run `pytest`, `flake8` and `mypy` from a command line.
+Run `pytest`, `flake8` and `mypy` from a command line...
 
 ```text
 $ pytest
@@ -81,7 +81,7 @@ $ flake8 src tests
 0
 ```
 
-### Run using `tox`
+.. or  using `tox`
 
 ```text
 $ tox -e py37,mypy,flake8 # Change 'py37' based on your python version.
