@@ -10,34 +10,40 @@ Standard template for a python project with `tox` and GitHub workflows.
 
 ## Setup
 
-Create project directory and pull the starter repo.
+Create project directory.
 
 ```text
 mkdir myproject
 cd myproject
+```
+
+Pull starter repo.
+
+```text
 git pull https://github.com/stanislavsabev/python_starter.git
 ```
 
-Setup virtual environment and activate it
+Setup virtual environment and activate it.
 
 ```text
 python -m venv venv
-source ./venv/bin/activate
-```
-On Windows use `.\venv\Scripts\activate.bat`
 
-Install requirements
+source ./venv/bin/activate # Linux / Mac
+.\venv\Scripts\activate.bat # Windows
+```
+
+Install requirements.
 
 ```text
 pip install -r requirements.txt
 pip install -r requirements-dev.txt
 ```
 
-**NOTE:** At this point you can choose different name for the `python_starter` package.
+**NOTE:** At this point you can rename the package.
 
-1. Rename `src/python_starter` directory.
+1. Rename the `src/python_starter` directory.
 
-2. Change all mentions of `python_starter` in pyproject.toml, setup.cfg, setup.py, tests/test_start.py and (optional) example.py.
+2. Change all mentions of `python_starter` in pyproject.toml, setup.cfg, setup.py, tests/test_start.py and (optional) in example.py.
 
 Install the package in edit mode
 
@@ -45,9 +51,9 @@ Install the package in edit mode
 pip install -e .
 ```
 
-## Usage
+## Local Usage
 
-### To run checks locally
+### Run `pytest`, `flake8` and `mypy` from a command line.
 
 ```text
 $ pytest
@@ -75,6 +81,8 @@ $ flake8 src tests
 0
 ```
 
+### Run using `tox`
+
 ```text
 $ tox -e py37,mypy,flake8 # Change 'py37' based on your python version.
 ...
@@ -85,7 +93,8 @@ ______________________________________________________________________________ s
   congratulations :)
 ```
 
-### To run checks using GitHub Actions workflows
+## Remote usage with `GitHub Actions`
 
-Create GitHub repo and push your changes.
+Create [GitHub](https://github.com) repo and push your changes.
+
 For more information see the GitHub Actions  [documentation](https://docs.github.com/en/actions/using-workflows).
